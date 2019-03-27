@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\IKRAM\\Desktop\\work\\job_matching_v2\\rasa_core-master\\examples\\jobbot\\models/nlu/default\\current\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\IKRAM\\Desktop\\work\\job_matching_v2\\rasa_core-master\\examples\\jobbot\\models/nlu/default\\current\\intent_classifier_tensorflow_embedding.ckpt"

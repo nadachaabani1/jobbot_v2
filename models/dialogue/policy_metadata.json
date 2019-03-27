@@ -1,0 +1,50 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "name",
+        "competency",
+        "company",
+        "location",
+        "job_title",
+        "requested_slot",
+        "degree_name",
+        "industry"
+      ]
+    },
+    "job_form": {
+      "slots": [
+        "career_level",
+        "competency",
+        "company",
+        "employment_type",
+        "job_title",
+        "location",
+        "requested_slot",
+        "degree_name",
+        "industry"
+      ]
+    },
+    "action_search_jobs": {
+      "slots": [
+        "matches"
+      ]
+    }
+  },
+  "python": "3.6.8",
+  "max_histories": [
+    3,
+    2,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.form_policy.FormPolicy",
+    "policy.jobPolicy"
+  ],
+  "trained_at": "20190327-150252",
+  "rasa_core": "0.13.2",
+  "tensorflow": "1.12.0",
+  "sklearn": "0.20.2"
+}
