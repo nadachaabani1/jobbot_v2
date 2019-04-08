@@ -1,66 +1,88 @@
 %YAML 1.1
 ---
 actions:
-- utter_ask_industry
-- utter_ask_jobmotivation
-- utter_greet
-- utter_ask_location
-- utter_on_it
-- utter_ack_dosearch
-- utter_ask_strengths
-- utter_ask_company
-- utter_ask_career_level
-- action_finish
-- utter_ask_job_title
-- utter_ask_employment_type
-- utter_ask_competency
-- utter_ask_degree_name
-- utter_ack_makeresearch
-- action_get_jobs
-- utter_ask_howcanhelp
-- utter_default
-- utter_ask_moreupdates
-- utter_ask_newjob
-- utter_goodbye
-- action_search_jobs
+- utter_ask_candidate_competency
 - utter_slots_values
 - utter_ack_findalternatives
+- utter_ask_more_job_updates
+- utter_greet
+- utter_ack_dosearch
+- utter_ask_employment_type
+- utter_ask_industry
+- utter_ask_company
+- utter_ask_career_level
+- action_get_candidates
+- utter_goodbye
+- utter_ack_makeresearch_candidate
+- utter_ack_makeresearch_job
+- utter_ask_gender
+- utter_default
+- action_search_jobs
+- action_finish
+- utter_ask_degree_name
+- utter_ask_more_candidate_updates
+- utter_ask_experience
+- action_get_jobs
+- utter_ask_competency
+- utter_ask_jobmotivation
+- utter_ask_language
+- utter_ask_newjob
+- utter_ask_howcanhelp
 - action_suggest
-- utter_ask_time
+- utter_ask_location
+- utter_on_it
+- utter_ask_strengths
+- action_search_candidates
+- utter_ask_job_title
 config:
   store_entities_as_slots: true
 entities:
-- info
-- career_level
-- industry
-- location
-- employment_type
 - degree_name
-- job_title
-- thankyou
+- candidate
+- gender
+- experience
 - name
-- competency
+- info
+- language
+- thankyou
+- career_level
+- job_title
+- employment_type
+- location
 - company
+- competency
+- industry
 forms:
+- candidate_form
 - job_form
 intents:
-- thankyou:
-    use_entities: true
-- request_job:
-    use_entities: true
-- affirm:
-    use_entities: true
-- greet:
+- name:
     use_entities: true
 - inform:
     use_entities: true
-- name:
+- thankyou:
+    use_entities: true
+- greet:
+    use_entities: true
+- request_candidate:
+    use_entities: true
+- affirm:
+    use_entities: true
+- request_job:
     use_entities: true
 - newjoob:
     use_entities: true
 - deny:
     use_entities: true
 slots:
+  candidate:
+    auto_fill: false
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  candidate_competency:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.ListSlot
   career_level:
     auto_fill: false
     initial_value: null
@@ -81,6 +103,14 @@ slots:
     auto_fill: false
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
+  experience:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.ListSlot
+  gender:
+    auto_fill: false
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
   industry:
     auto_fill: false
     initial_value: null
@@ -93,6 +123,10 @@ slots:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
+  language:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.ListSlot
   location:
     auto_fill: true
     initial_value: null
@@ -114,9 +148,13 @@ templates:
   - text: ok let me see what I can find
   utter_ack_findalternatives:
   - text: ok let me see what else there is
-  utter_ack_makeresearch:
-  - text: 'ok making a search for {employment_type} {job_title} position in {location}
-      for {industry} industry? '
+  utter_ack_makeresearch_candidate:
+  - text: ok making a search for the candidate ?
+  utter_ack_makeresearch_job:
+  - text: ok making a search for {employment_type} {job_title} position in {location}
+      for {industry} industry?
+  utter_ask_candidate_competency:
+  - text: Do you have any competency preference to find this candidate ?
   utter_ask_career_level:
   - buttons:
     - payload: Un-Skilled
@@ -177,6 +215,18 @@ templates:
     text: Each type of employee varies, so it's important to think carefully about
       which type of worker will work best for you. The nine main employment types
       are. Please choose one.
+  utter_ask_experience:
+  - text: What's the required minimum experience in years the favor applicants should
+      have ?
+  utter_ask_gender:
+  - buttons:
+    - payload: Male
+      title: Male
+    - payload: Female
+      title: Female
+    - payload: Any
+      title: Any
+    text: Which candidate gender are you looking for?
   utter_ask_howcanhelp:
   - text: Nice to you meet you {name}. How can I help you?
   utter_ask_industry:
@@ -229,9 +279,16 @@ templates:
   - text: which job position are you looking for ?
   utter_ask_jobmotivation:
   - text: What makes you decide to apply for {job_title} position?
+  utter_ask_language:
+  - text: What's the required languages the applicants should speak ?
   utter_ask_location:
-  - text: where?
-  utter_ask_moreupdates:
+  - text: Do you have any location preferences?
+  utter_ask_more_candidate_updates:
+  - text: "if you'd like to modify anything else, please tell me what. This is what\
+      \ I currently have:\n - name : {name}\n  - gender : {gender}\n - language :\
+      \ {language} \n - competancy : {competency}\n - degree_name : {degree_name}\n\
+      - experience : {experience}\n - country : {location}\n  - industry : {industry}"
+  utter_ask_more_job_updates:
   - text: "if you'd like to modify anything else, please tell me what. This is what\
       \ I currently have:\n - name : {name}\n - industry : {industry}\n - job_title\
       \ : {job_title}\n - competancy : {competency}\n - employment_type : {employment_type}\n\

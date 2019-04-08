@@ -8,7 +8,8 @@ from rasa_core_sdk.forms import FormAction, REQUESTED_SLOT
 
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
-from database_connection import ConnectionAPI
+from database_connection import JobConnectionAPI
+from database_connection import CandidateConnectionAPI
 import datetime
 import psycopg2
 import database_connection
@@ -22,9 +23,6 @@ class ActionSearchJobs(Action):
     def run(self, dispatcher, tracker, domain):
         dispatcher.utter_message("looking for jobs")
         
-        #job_api = JobAPI()
-        #jobs = job_api.search(tracker.get_slot("job_title"))
-
         job = tracker.get_slot('job_title')
         print("job title slot : "+job)
         print("\n")
@@ -62,7 +60,7 @@ class ActionSearchJobs(Action):
         # Connect to the PostgreSQL database server
 
         dispatcher.utter_message("We have a position where that could work out well :" )  
-        connection_api = ConnectionAPI()
+        connection_api = JobConnectionAPI()
         listJob = connection_api.connection(date,job_title,competency,degree_name) 
        
         print("listJob in action: "+str(listJob)) 
@@ -73,13 +71,82 @@ class ActionSearchJobs(Action):
             
         return [SlotSet("matches", value=listJob)]
 
-class ActionGetMatch(Action):
+class ActionSearchCandidates(Action):
+    def name(self):
+        """Unique identifier of the form"""
+        return 'action_search_candidates'
+
+    def run(self, dispatcher, tracker, domain):
+        dispatcher.utter_message("looking for candidates")
+
+        comp = tracker.get_slot('competency')
+        print("competence slot: "+str(comp))
+        print("\n")
+       
+        singleElement = True
+        for element in comp:
+            if(len(element) != 1):
+                singleElement = False
+                break
+        if singleElement:
+            comp = ["".join(comp)]    
+        
+        c= list(map(lambda x: x.lower(), comp))
+        competency=str(tuple(c))
+        print("competency : "+competency)
+        print("\n")
+
+        lang=tracker.get_slot('language')
+        print(lang)
+        singleElement = True
+        for elemnt in comp:
+            if(len(elemnt) != 1):
+                singleElement = False
+                break
+        if singleElement:
+            lang = ["".join(lang)]
+        
+        l = list(map(lambda x: x.lower(), lang))
+        
+        language=str(tuple(l))
+        print("language : "+language)
+        print("\n")    
+
+        degree_name = tracker.get_slot('degree_name')
+        print("degree_name slot : "+degree_name)
+        print("\n")
+
+        # Connect to the PostgreSQL database server
+   
+        connection_api = CandidateConnectionAPI()
+        listCandidate = connection_api.connection(competency,language,degree_name) 
+       
+        print("listJob in action: "+str(listCandidate)) 
+        print("\n")
+
+        if (len(listCandidate) == 0 ):
+            listCandidate = ["No job match found"]
+        else :
+            dispatcher.utter_message("Favor candidates are :" )    
+            
+        return [SlotSet("matches", value=listCandidate)]
+
+class ActionGetJobMatch(Action):
     def name(self):
         return 'action_get_jobs'
 
     def run(self, dispatcher, tracker, domain):
         job = tracker.get_slot("matches")
         dispatcher.utter_message(str(job))
+        return []       
+
+class ActionGetCandidateMatch(Action):
+    def name(self):
+        return 'action_get_candidates'
+
+    def run(self, dispatcher, tracker, domain):
+        candidate = tracker.get_slot("matches")
+        dispatcher.utter_message(str(candidate))
         return []
 
 class ActionSuggest(Action):
@@ -268,3 +335,140 @@ class JobForm(FormAction):
         # utter submit template
         dispatcher.utter_template('utter_submit', tracker)
         return []
+
+###################################
+class CandidateForm(FormAction):
+    """Example of a custom form action"""
+
+    def name(self):
+        # type: () -> Text
+        """Unique identifier of the form"""
+
+        return "candidate_form"
+
+    @staticmethod
+    def required_slots(tracker: Tracker) -> List[Text]:
+        """A list of required slots that the form has to fill"""
+
+        return ["name", "gender", "industry", "degree_name", "candidate_competency", "language","experience", "location"]
+
+    
+    def slot_mappings(self):
+        # type: () -> Dict[Text: Union[Dict, List[Dict]]]
+        """A dictionary to map required slots to
+            - an extracted entity
+            - intent: value pairs
+            - a whole message
+            or a list of them, where a first match will be picked"""
+
+        return {"industry": self.from_entity(entity="industry",
+                                                intent=["inform","request_candidate"]),
+                "gender": self.from_entity(entity="gender",
+                                                intent=["inform","request_candidate"]),
+                "degree_name": self.from_entity(entity="degree_name",
+                                                intent=["inform","request_candidate"]),
+                "name": self.from_entity(entity="name",
+                                        intent=["inform","request_candidate","name"]),                                                                                 
+                "candidate_competency": self.from_entity(entity="competency",
+                                                intent=["inform","request_candidate"]),
+                "experience": self.from_entity(entity="experience",
+                                            intent=["inform","request_candidate"]),                                
+                "location": self.from_entity(entity="location",
+                                            intent=["inform","request_candidate"]), 
+                "language": self.from_entity(entity="language",
+                                            intent=["inform","request_candidate"])}
+
+    @staticmethod
+    def degree_name_db():
+        # type: () -> List[Text]
+        """Database of supported degree_name"""
+        return ["diploma",
+                "vocational diploma",
+                "higher diploma",
+                "(advanced diploma) technical colleges",
+                "bachelor''s degree",
+                "master''s degree",
+                "ph.d."]
+
+    
+    @staticmethod
+    def industry_name_db():
+        # type: () -> List[Text]
+        """Database of supported industry"""
+        return ["agriculture, forestry, fishing and hunting",
+                "mining, quarrying, and oil and gas extraction",
+                "utilities",
+                "construction",
+                "wholesale trade",
+                "information and cultural industries",
+                "finance and insurance",
+                "management of companies and enterprises",
+                "administrative and support, waste management and remediation services",
+                "educational services",
+                "health care and social assistance",
+                "accommodation and food services",
+                "other services (except public administration)",	
+                "public administration",
+                "unclassified",
+                "industry",
+                "tourism",
+                "government companies",
+                "free zone",
+                "logistics",
+                "other sectors"]
+	
+    def validate(self,
+                 dispatcher: CollectingDispatcher,
+                 tracker: Tracker,
+                 domain: Dict[Text, Any]) -> List[Dict]:
+        """Validate extracted requested slot
+            else reject the execution of the form action
+        """
+        # extract other slots that were not requested
+        # but set by corresponding entity
+        slot_values = self.extract_other_slots(dispatcher, tracker, domain)
+
+        # extract requested slot
+        slot_to_fill = tracker.get_slot(REQUESTED_SLOT)
+        if slot_to_fill:
+            slot_values.update(self.extract_requested_slot(dispatcher,
+                                                           tracker, domain))
+            if not slot_values:
+                # reject form action execution
+                # if some slot was requested but nothing was extracted
+                # it will allow other policies to predict another action
+                raise ActionExecutionRejection(self.name(),
+                                               "Failed to validate slot {0} "
+                                               "with action {1}"
+                                               "".format(slot_to_fill,
+                                                         self.name()))
+
+        # we'll check when validation failed in order
+        # to add appropriate utterances
+        for slot, value in slot_values.items():
+            if slot == 'industry':
+                print("industry value.lower() "+value.lower())
+                if value.lower() not in self.industry_name_db():
+                    dispatcher.utter_template('utter_wrong_industry', tracker)
+                    # validation failed, set slot to None
+                    slot_values[slot] = None
+            elif slot == 'degree_name':
+                print("degree_name value.lower() "+value.lower())
+                if value.lower() not in self.degree_name_db():
+                    dispatcher.utter_template('utter_wrong_degree_name', tracker)
+                    # validation failed, set slot to None
+                    slot_values[slot] = None 
+                           
+        # validation succeed, set the slots values to the extracted values
+        return [SlotSet(slot, value) for slot, value in slot_values.items()]
+
+    def submit(self,
+               dispatcher: CollectingDispatcher,
+               tracker: Tracker,
+               domain: Dict[Text, Any]) -> List[Dict]:
+        """Define what the form has to do
+            after all required slots are filled"""
+
+        # utter submit template
+        dispatcher.utter_template('utter_submit', tracker)
+        return []        

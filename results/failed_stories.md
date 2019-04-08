@@ -32,13 +32,13 @@
 * inform{"company": "target"}
     - slot{"company": "target"}
     - slot{"company": "target"}
-    - utter_ask_moreupdates
+    - utter_ask_more_job_updates
 * affirm
-    - utter_ack_makeresearch
+    - utter_ack_makeresearch_job
 * affirm
     - utter_ack_dosearch
     - action_search_jobs
-    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "compentency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
+    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "competency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
     - action_get_jobs
 * thankyou
     - utter_goodbye
@@ -83,13 +83,13 @@
 * inform{"location": "tunis"}
     - slot{"location": "tunis"}
     - slot{"location": "tunis"}
-    - utter_ask_moreupdates
+    - utter_ask_more_job_updates
 * affirm
-    - utter_ack_makeresearch
+    - utter_ack_makeresearch_job
 * affirm
     - utter_ack_dosearch
     - action_search_jobs
-    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "compentency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
+    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "competency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
     - action_get_jobs
 * thankyou
     - utter_goodbye
@@ -135,13 +135,13 @@
 * inform{"company": "google"}
     - slot{"company": "google"}
     - slot{"company": "google"}
-    - utter_ask_moreupdates
+    - utter_ask_more_job_updates
 * affirm
-    - utter_ack_makeresearch
+    - utter_ack_makeresearch_job
 * affirm
     - utter_ack_dosearch
     - action_search_jobs
-    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "compentency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
+    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "competency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
     - action_get_jobs
 * thankyou
     - utter_goodbye
@@ -184,13 +184,13 @@
 * inform{"company": "target"}
     - slot{"company": "target"}
     - slot{"company": "target"}
-    - utter_ask_moreupdates
+    - utter_ask_more_job_updates
 * affirm
-    - utter_ack_makeresearch
+    - utter_ack_makeresearch_job
 * affirm
     - utter_ack_dosearch
     - action_search_jobs
-    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "compentency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
+    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "competency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
     - action_get_jobs
 * thankyou
     - utter_goodbye
@@ -233,13 +233,13 @@
 * inform{"company": "target"}
     - slot{"company": "target"}
     - slot{"company": "target"}
-    - utter_ask_moreupdates
+    - utter_ask_more_job_updates
 * affirm
-    - utter_ack_makeresearch
+    - utter_ack_makeresearch_job
 * affirm
     - utter_ack_dosearch
     - action_search_jobs
-    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "compentency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
+    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "competency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
     - action_get_jobs
 * thankyou
     - utter_goodbye
@@ -282,13 +282,13 @@
 * inform{"company": "target"}
     - slot{"company": "target"}
     - slot{"company": "target"}
-    - utter_ask_moreupdates
+    - utter_ask_more_job_updates
 * affirm
-    - utter_ack_makeresearch
+    - utter_ack_makeresearch_job
 * affirm
     - utter_ack_dosearch
     - action_search_jobs
-    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "compentency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
+    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "competency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
     - action_get_jobs
 * thankyou
     - utter_goodbye
@@ -323,13 +323,13 @@
     - slot{"requested_slot": "company"}
     - slot{"company": "target"}
     - slot{"requested_slot": "company"}
-    - form: utter_ask_moreupdates   <!-- predicted: action_listen -->
+    - form: utter_ask_more_job_updates   <!-- predicted: action_listen -->
 * form: affirm
-    - form: utter_ack_makeresearch   <!-- predicted: job_form -->
+    - form: utter_ack_makeresearch_job   <!-- predicted: job_form -->
 * form: affirm
     - form: utter_ack_dosearch   <!-- predicted: job_form -->
     - form: action_search_jobs   <!-- predicted: action_listen -->
-    - slot{"matches": ["{\"job_id\": 797, \"job_title\": \"backend developer\", \"company\": \"Target Oilfield Services L.L.C.\", \"posting_date\": 1552555503, \"applied_before\": 1560283200, \"degree_level\": \"Master's Degree\", \"career_level\": \"Semi-Skilled\", \"experience\": 0, \"salary\": null, \"location\": \"Target\", \"job_description\": \"<p>&nbsp;We are looking for a qualified Application Developer to<br>design and code functional programs and applications. You will work as part of<br>a team and individually with little supervision.&nbsp;</p>\\n<p>A great Application Developer has excellent knowledge of at<br>least one programming language. They must be familiar with a variety of<br>operating systems and platforms. The ideal candidate will also have an<br>analytical mindset and a keen eye for detail.&nbsp;</p>\\n<p>The goal is to write \\u201cclean\\u201d and flawless code to produce<br>fully functional software applications according to requirements.&nbsp;&nbsp;&nbsp;</p>\\n\", \"compentency\": [\"Java (computer programming)\", \"principles of artificial intelligence\", \"DevOps\"]}"]}
+    - slot{"matches": ["{\"job_id\": 797, \"job_title\": \"backend developer\", \"company\": \"Target Oilfield Services L.L.C.\", \"posting_date\": 1552555503, \"applied_before\": 1560283200, \"degree_level\": \"Master's Degree\", \"career_level\": \"Semi-Skilled\", \"experience\": 0, \"salary\": null, \"location\": \"Target\", \"job_description\": \"<p>&nbsp;We are looking for a qualified Application Developer to<br>design and code functional programs and applications. You will work as part of<br>a team and individually with little supervision.&nbsp;</p>\\n<p>A great Application Developer has excellent knowledge of at<br>least one programming language. They must be familiar with a variety of<br>operating systems and platforms. The ideal candidate will also have an<br>analytical mindset and a keen eye for detail.&nbsp;</p>\\n<p>The goal is to write \\u201cclean\\u201d and flawless code to produce<br>fully functional software applications according to requirements.&nbsp;&nbsp;&nbsp;</p>\\n\", \"competency\": [\"Java (computer programming)\", \"principles of artificial intelligence\", \"DevOps\"]}"]}
     - form: action_get_jobs   <!-- predicted: action_listen -->
 * form: thankyou
     - form: utter_goodbye   <!-- predicted: job_form -->
@@ -367,11 +367,11 @@
     - slot{"degree_name": "bachelor's degree"}
     - utter_ask_company
 * inform
-    - utter_ask_moreupdates
+    - utter_ask_more_job_updates
 * inform{"location": "lac"}
     - slot{"location": "lac"}
     - slot{"location": "lac"}
-    - utter_ack_makeresearch
+    - utter_ack_makeresearch_job
 * affirm
     - utter_ack_dosearch
     - action_search_jobs
@@ -416,13 +416,13 @@
 * inform{"company": "target"}
     - slot{"company": "target"}
     - slot{"company": "target"}
-    - utter_ask_moreupdates
+    - utter_ask_more_job_updates
 * affirm
-    - utter_ack_makeresearch
+    - utter_ack_makeresearch_job
 * affirm
     - utter_ack_dosearch
     - action_search_jobs
-    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "compentency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
+    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "competency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
     - action_get_jobs
 * thankyou
     - utter_goodbye
@@ -461,13 +461,13 @@
 * inform{"company": "target"}
     - slot{"company": "target"}
     - slot{"company": "target"}
-    - utter_ask_moreupdates
+    - utter_ask_more_job_updates
 * affirm
-    - utter_ack_makeresearch
+    - utter_ack_makeresearch_job
 * affirm
     - utter_ack_dosearch
     - action_search_jobs
-    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "compentency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
+    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "competency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
     - action_get_jobs
 * thankyou
     - utter_goodbye
@@ -506,13 +506,13 @@
 * inform{"company": "target"}
     - slot{"company": "target"}
     - slot{"company": "target"}
-    - utter_ask_moreupdates
+    - utter_ask_more_job_updates
 * affirm
-    - utter_ack_makeresearch
+    - utter_ack_makeresearch_job
 * affirm
     - utter_ack_dosearch
     - action_search_jobs
-    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "compentency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
+    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "competency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
     - action_get_jobs
 * thankyou
     - utter_goodbye
@@ -551,13 +551,13 @@
 * inform{"company": "target"}
     - slot{"company": "target"}
     - slot{"company": "target"}
-    - utter_ask_moreupdates
+    - utter_ask_more_job_updates
 * affirm
-    - utter_ack_makeresearch
+    - utter_ack_makeresearch_job
 * affirm
     - utter_ack_dosearch
     - action_search_jobs
-    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "compentency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
+    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "competency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
     - action_get_jobs
 * thankyou
     - utter_goodbye
@@ -596,13 +596,13 @@
 * inform{"company": "target"}
     - slot{"company": "target"}
     - slot{"company": "target"}
-    - utter_ask_moreupdates
+    - utter_ask_more_job_updates
 * affirm
-    - utter_ack_makeresearch
+    - utter_ack_makeresearch_job
 * affirm
     - utter_ack_dosearch
     - action_search_jobs
-    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "compentency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
+    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "competency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
     - action_get_jobs
 * thankyou
     - utter_goodbye
@@ -639,15 +639,15 @@
 * inform{"company": "google"}
     - slot{"company": "google"}
     - slot{"company": "google"}
-    - utter_ask_moreupdates
+    - utter_ask_more_job_updates
 * inform{"location": "tunis"}
     - slot{"location": "tunis"}
     - slot{"location": "tunis"}
-    - utter_ack_makeresearch
+    - utter_ack_makeresearch_job
 * affirm
     - utter_ack_dosearch
     - action_search_jobs
-    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "compentency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
+    - slot{"matches": [{"job_id": 781, "job_title": "web developer", "company": "Target Oilfield Services L.L.C.", "posting_date": 1552554507, "applied_before": 1559332800, "degree_level": "Master's Degree", "career_level": "Semi-Skilled", "experience": 0, "salary": null, "location": "tunis", "job_description": "This web developer sample job description can assist in your creating a job application that will attract job candidates who are qualified for the job. Feel free to revise this job description to meet your specific job duties and job requirements.", "competency": ["SQL", "Java (computer programming)", "DevOps", "PHP", "Python (computer programming)", "NoSQL", "JavaScript"]}]}
     - action_get_jobs   <!-- predicted: action_listen -->
 * thankyou
     - utter_goodbye

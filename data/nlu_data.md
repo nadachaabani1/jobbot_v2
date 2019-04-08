@@ -83,6 +83,12 @@
 - it's perfect
 - perfect !
 - yes please
+- that's great !
+- yes please
+- perfect !
+- yes pleaaaase
+- i don't want to modify any thing
+- yes :D
 
 ## intent:deny
 - no danish food
@@ -170,8 +176,21 @@
 - bye
 - hello :D
 - bye
+- hey
+- bye
+- hey
+- bye
+- hey
+- bye
 
 ## intent:inform
+- [target](company)
+- [facebook](company)
+- [google](company)
+- i am excelent at [react](competency:JavaScript Framework)
+- for the time being i am looking for an opportunity at a software specialized company such as [target](company)
+- for the time being i am looking for an opportunity at a software specialized company such as [facebook](company)
+- for the time being i am looking for an opportunity at a software specialized company such as [google](company)
 - for the time being i am looking for an opportunity at a software specialized company such as [ARDIA](company)
 - for the time being i am looking for an opportunity at a software specialized company such as [focus](company)
 - for the time being i am looking for an opportunity at a software specialized company such as [linedata](company)
@@ -273,9 +292,9 @@
 - i hope i can find a job in [HLI](company)
 - i hope i can find a job in [softtodo](company)
 - i want to work in [ARDIA](company) and have [middleware](job_title) position
-- i want to work in [focus](company) and have [middleware](job_title) position
-- i want to work in [linedata](company) and have [middleware](job_title) position
-- i want to work in [ditroit](company) and have [middleware](job_title) position
+- i want to work in [focus](company) and have [architecture](job_title) position
+- i want to work in [linedata](company) and have [architecture](job_title) position
+- i want to work in [ditroit](company) and have [engineers](job_title) position
 - i want to work in [vermeg](company) and have [middleware](job_title) position
 - i want to work in [sofrecom](company) and have [middleware](job_title) position
 - i want to work in [cynapsys](company) and have [middleware](job_title) position
@@ -283,14 +302,14 @@
 - i want to work in [tritux](company) and have [middleware](job_title) position
 - i want to work in [fogits](company) and have [middleware](job_title) position
 - i want to work in [mobelite](company) and have [middleware](job_title) position
-- i want to work in [sofia ODDA-BH](company) and have [middleware](job_title) position
+- i want to work in [sofia ODDA-BH](company) and have [architecture](job_title) position
 - i want to work in [takwinland](company) and have [middleware](job_title) position
-- i want to work in [ATS-Digital](company) and have [middleware](job_title) position
+- i want to work in [ATS-Digital](company) and have [engineers](job_title) position
 - i want to work in [IYA SOFT](company) and have [middleware](job_title) position
 - i want to work in [kiwi sotwares](company) and have [middleware](job_title) position
 - i want to work in [keyrus](company) and have [middleware](job_title) position
-- i want to work in [FIS](company) and have [middleware](job_title) position
-- i want to work in [HLI](company) and have [middleware](job_title) position
+- i want to work in [FIS](company) and have [architecture](job_title) position
+- i want to work in [HLI](company) and have [engineers](job_title) position
 - i want to work in [softtodo](company) and have [middleware](job_title) position
 - [part-time](employment_type) in [ARDIA](company) [United States](location) with [Angular Developer](job_title) position
 - [part-time](employment_type) in [focus](company) [United States](location) with [Angular Developer](job_title) position
@@ -2182,25 +2201,25 @@
 - it would be nice if i find a job in [UIB](company) and have [Aircraft Electronics Technician](job_title) position
 - it would be nice if i find a job in [STEG](company) and have [Aircraft Electronics Technician](job_title) position
 - i hope i can find a job  with [Junior Management Analyst](job_title) position in [Banque Tuniso-Koweitienne](company)
-- i hope i can find a job  with [Junior Management Analyst](job_title) position in [BTK](company)
+- i hope i can find a job  with [project management](job_title) position in [BTK](company)
 - i hope i can find a job  with [Junior Management Analyst](job_title) position in [Banque Tuniso-Libyenne](company)
 - i hope i can find a job  with [Junior Management Analyst](job_title) position in [BTL](company)
 - i hope i can find a job  with [Junior Management Analyst](job_title) position in [Citi-Bank Tunis Branch onshore](company)
 - i hope i can find a job  with [Junior Management Analyst](job_title) position in [citibank](company)
-- i hope i can find a job  with [Junior Management Analyst](job_title) position in [Banque Zitouna](company)
+- i hope i can find a job  with [project management](job_title) position in [Banque Zitouna](company)
 - i hope i can find a job  with [Junior Management Analyst](job_title) position in [North Africa International Bank](company)
 - i hope i can find a job  with [Junior Management Analyst](job_title) position in [NAIB](company)
 - i hope i can find a job  with [Junior Management Analyst](job_title) position in [Qatar National Bank](company)
-- i hope i can find a job  with [Junior Management Analyst](job_title) position in [QNB](company)
+- find a job  with [project management](job_title) position in [QNB](company)
 - i hope i can find a job  with [Junior Management Analyst](job_title) position in [Société Tunisienne de Banque](company)
 - i hope i can find a job  with [Junior Management Analyst](job_title) position in [STB](company)
 - i hope i can find a job  with [Junior Management Analyst](job_title) position in [Stusid Bank](company)
-- i hope i can find a job  with [Junior Management Analyst](job_title) position in [SB](company)
-- i hope i can find a job  with [Junior Management Analyst](job_title) position in [Union Bancaire Commerce et Industrie](company)
+- job  with [Junior Management Analyst](job_title) position in [SB](company)
+- job  with [project management](job_title) position in [Union Bancaire Commerce et Industrie](company)
 - i hope i can find a job  with [Junior Management Analyst](job_title) position in [UBCI](company)
-- i hope i can find a job  with [Junior Management Analyst](job_title) position in [Union Internationale de Banques](company)
+- i hope i can find a job  with [project management](job_title) position in [Union Internationale de Banques](company)
 - i hope i can find a job  with [Junior Management Analyst](job_title) position in [UIB](company)
-- i hope i can find a job  with [Junior Management Analyst](job_title) position in [STEG](company)
+- i hope i can find a job  with [project management](job_title) position in [STEG](company)
 - i want to work in [Banque Tuniso-Koweitienne](company) and have [Telecommunications Analyst](job_title) position
 - i want to work in [BTK](company) and have [Telecommunications Analyst](job_title) position
 - i want to work in [Banque Tuniso-Libyenne](company) and have [Telecommunications Analyst](job_title) position
@@ -2347,7 +2366,6 @@
 - it would be nice if i find a job in [JD](company) and have [Datacenter Technician](job_title) position
 - it would be nice if i find a job in [facebook](company) and have [Datacenter Technician](job_title) position
 - it would be nice if i find a job in [google](company) and have [Datacenter Technician](job_title) position
-
 - i hope i can find a job  with [Interconnect Engineer](job_title) position in [ASUS](company)
 - i hope i can find a job  with [Interconnect Engineer](job_title) position in [HP](company)
 - i hope i can find a job  with [Interconnect Engineer](job_title) position in [Lenovo](company)
@@ -2873,8 +2891,9 @@
 - i have an expert understanding of [HTML5](competency) frameworks, [SCSS](competency), [JavaScript](competency) and [responsive design](competency)
 - i have an expert understanding of [HTML](competency) frameworks, [CSS 3](competency), [JavaScript](competency) and [responsive design](competency)
 - i have an expert understanding of [HTML 5](competency) frameworks, [css](competency), [JavaScript](competency) and [responsive design](competency)
-- i have a deep understand of [Tomcat](competency) server and excellent [Problem Solving](competency) skills
+- i have a deep understand of [Tomcat](competency) server and excellent [conflict resolution](competency) skills
 - i have a deep understand of [JBoss](competency) server and excellent [Problem-solving](competency) skills
+- i have a deep understand of [JBoss](competency) server and excellent [negotiation](competency) skills
 - i have a deep understand of [Nginx](competency) server and excellent solve problems](competency) skills
 - i have a deep understand of [Jetty](competency) server and excellent [Problem-solving](competency) skills
 - i have a deep understand of [Undertow](competency) server and excellent [Problem-solving](competency) skills
@@ -3240,6 +3259,7 @@
 - [Chartered and certified accountants](job_title)
 - [Management consultants and business analysts](job_title)
 - [Business and financial project management professionals](job_title)
+- [project management](job_title)
 - [Actuaries](job_title)
 - [Economists](job_title)
 - [Statisticians](job_title)
@@ -3742,6 +3762,616 @@
 - i am [Professional](career_level:professional) in [react](competency:JavaScript Framework)
 - [Fixed term](employment_type) is what i want
 - [Probation](employment_type) is what i want
+- they told me i am that good with [php](competency:PHP) but i know i am good with [flask](competency)
+- i am [female](gender)
+- i am [male](gender)
+- i'm [male](gender)
+- i'm [female](gender)
+- my gender is [female](gender)
+- my gender is [male](gender)
+- [female](gender)
+- [male](gender)
+- looking for [female](gender)
+- looking for [male](gender)
+- looking for [female](gender) gender
+- looking for [male](gender) gender
+- looking for [any](gender) gender
+- am looking for [female](gender) [candidate](candidate)
+- am looking for [male](gender) [candidate](candidate)
+- am looking for [any](gender) [candidate](candidate)
+- i seek a [female](gender) [candidate](candidate)
+- i seek a [male](gender) [candidate](candidate)
+- [female](gender) please
+- [male](gender) please
+- [any](gender) gender
+- [any](gender) gender please
+- give me favor applicants with a preference for the position's industry [Information and Cultural Industriesy](industry)
+- [zero](experience) years' experience
+- [one](experience) years' experience
+- [two](experience) years' experience
+- [three](experience) years' experience
+- [four](experience) years' experience
+- [five](experience) years' experience
+- [six](experience) years' experience
+- [seven](experience) years' experience
+- [eight](experience) years' experience
+- [nine](experience) years' experience
+- [ten](experience) years' experience
+- [eleven](experience) years' experience
+- [twelve](experience) years' experience
+- [thirteen](experience) years' experience
+- [fourteen](experience) years' experience
+- [fifteen](experience) years' experience
+- [sixteen](experience) years' experience
+- [seventeen](experience) years' experience
+- [eighteen](experience) years' experience
+- [nineteen](experience) years' experience
+- [twenty](experience) years' experience
+- [twenty-one](experience) years' experience
+- [twenty-two](experience) years' experience
+- [twenty-three](experience) years' experience
+- [twenty-four](experience) years' experience
+- [twenty-five](experience) years' experience
+- [twenty-six](experience) years' experience
+- [twenty-seven](experience) years' experience
+- [twenty-eight](experience) years' experience
+- [twenty-nine](experience) years' experience
+- [thirty](experience) years' experience
+- [thirty-one](experience) years' experience
+- [thirty-two](experience) years' experience
+- [thirty-three](experience) years' experience
+- [thirty-four](experience) years' experience
+- [thirty-five](experience) years' experience
+- [thirty-six](experience) years' experience
+- [thirty-seven](experience) years' experience
+- [thirty-eight](experience) years' experience
+- [thirty-nine](experience) years' experience
+- [forty](experience) years' experience
+- [forty-one](experience) years' experience
+- [forty-two](experience) years' experience
+- [forty-three](experience) years' experience
+- [forty-four](experience) years' experience
+- [forty-five](experience) years' experience
+- [forty-six](experience) years' experience
+- [forty-seven](experience) years' experience
+- [forty-eight](experience) years' experience
+- [forty-nine](experience) years' experience
+- [fifty](experience) years' experience
+- the candidate can have [zero](experience) years' of work experience
+- the candidate must have at least [one](experience) years' of work experience
+- the candidate must have at least [two](experience) years' of work experience
+- the candidate must have at least [three](experience) years' of work experience
+- the candidate must have at least [four](experience) years' of work experience
+- the candidate must have at least [five](experience) years' of work experience
+- the candidate must have at least [six](experience) years' of work experience
+- the candidate must have at least [seven](experience) years' of work experience
+- the candidate must have at least [eight](experience) years' of work experience
+- the candidate must have at least [nine](experience) years' of work experience
+- the candidate must have at least [ten](experience) years' of work experience
+- the candidate must have at least [eleven](experience) years' of work experience
+- the candidate must have at least [twelve](experience) years' of work experience
+- the candidate must have at least [thirteen](experience) years' of work experience
+- the candidate must have at least [fourteen](experience) years' of work experience
+- the candidate must have at least [fifteen](experience) years' of work experience
+- the candidate must have at least [sixteen](experience) years' of work experience
+- the candidate must have at least [seventeen](experience) years' of work experience
+- the candidate must have at least [eighteen](experience) years' of work experience
+- the candidate must have at least [nineteen](experience) years' of work experience
+- the candidate must have at least [twenty](experience) years' of work experience
+- the candidate must have at least [twenty-one](experience) years' of work experience
+- the candidate must have at least [twenty-two](experience) years' of work experience
+- the candidate must have at least [twenty-three](experience) years' of work experience
+- the candidate must have at least [twenty-four](experience) years' of work experience
+- the candidate must have at least [twenty-five](experience) years' of work experience
+- the candidate must have at least [twenty-six](experience) years' of work experience
+- the candidate must have at least [twenty-seven](experience) years' of work experience
+- the candidate must have at least [twenty-eight](experience) years' of work experience
+- the candidate must have at least [twenty-nine](experience) years' of work experience
+- the candidate must have at least [thirty](experience) years' of work experience
+- the candidate must have at least [thirty-one](experience) years' of work experience
+- the candidate must have at least [thirty-two](experience) years' of work experience
+- the candidate must have at least [thirty-three](experience) years' of work experience
+- the candidate must have at least [thirty-four](experience) years' of work experience
+- the candidate must have at least [thirty-five](experience) years' of work experience
+- the candidate must have at least [thirty-six](experience) years' of work experience
+- the candidate must have at least [thirty-seven](experience) years' of work experience
+- the candidate must have at least [thirty-eight](experience) years' of work experience
+- the candidate must have at least [thirty-nine](experience) years' of work experience
+- the candidate must have at least [forty](experience) years' of work experience
+- the candidate must have at least [forty-one](experience) years' of work experience
+- the candidate must have at least [forty-two](experience) years' of work experience
+- the candidate must have at least [forty-three](experience) years' of work experience
+- the candidate must have at least [forty-four](experience) years' of work experience
+- the candidate must have at least [forty-five](experience) years' of work experience
+- the candidate must have at least [forty-six](experience) years' of work experience
+- the candidate must have at least [forty-seven](experience) years' of work experience
+- the candidate must have at least [forty-eight](experience) years' of work experience
+- the candidate must have at least [forty-nine](experience) years' of work experience
+- the candidate must have at least [fifty](experience) years' of work experience
+- applicant should have a minimum of [zero](experience) years of experience
+- applicant should have a minimum of [one](experience) years of experience
+- applicant should have a minimum of [two](experience) years of experience
+- applicant should have a minimum of [three](experience) years of experience
+- applicant should have a minimum of [four](experience) years of experience
+- applicant should have a minimum of [five](experience) years of experience
+- applicant should have a minimum of [six](experience) years of experience
+- applicant should have a minimum of [seven](experience) years of experience
+- applicant should have a minimum of [eight](experience) years of experience
+- applicant should have a minimum of [nine](experience) years of experience
+- applicant should have a minimum of [ten](experience) years of experience
+- applicant should have a minimum of [eleven](experience) years of experience
+- applicant should have a minimum of [twelve](experience) years of experience
+- applicant should have a minimum of [thirteen](experience) years of experience
+- applicant should have a minimum of [fourteen](experience) years of experience
+- applicant should have a minimum of [fifteen](experience) years of experience
+- applicant should have a minimum of [sixteen](experience) years of experience
+- applicant should have a minimum of [seventeen](experience) years of experience
+- applicant should have a minimum of [eighteen](experience) years of experience
+- applicant should have a minimum of [nineteen](experience) years of experience
+- applicant should have a minimum of [twenty](experience) years of experience
+- applicant should have a minimum of [twenty-one](experience) years of experience
+- applicant should have a minimum of [twenty-two](experience) years of experience
+- applicant should have a minimum of [twenty-three](experience) years of experience
+- applicant should have a minimum of [twenty-four](experience) years of experience
+- applicant should have a minimum of [twenty-five](experience) years of experience
+- applicant should have a minimum of [twenty-six](experience) years of experience
+- applicant should have a minimum of [twenty-seven](experience) years of experience
+- applicant should have a minimum of [twenty-eight](experience) years of experience
+- applicant should have a minimum of [twenty-nine](experience) years of experience
+- applicant should have a minimum of [thirty](experience) years of experience
+- applicant should have a minimum of [thirty-one](experience) years of experience
+- applicant should have a minimum of [thirty-two](experience) years of experience
+- applicant should have a minimum of [thirty-three](experience) years of experience
+- applicant should have a minimum of [thirty-four](experience) years of experience
+- applicant should have a minimum of [thirty-five](experience) years of experience
+- applicant should have a minimum of [thirty-six](experience) years of experience
+- applicant should have a minimum of [thirty-seven](experience) years of experience
+- applicant should have a minimum of [thirty-eight](experience) years of experience
+- applicant should have a minimum of [thirty-nine](experience) years of experience
+- applicant should have a minimum of [forty](experience) years of experience
+- applicant should have a minimum of [forty-one](experience) years of experience
+- applicant should have a minimum of [forty-two](experience) years of experience
+- applicant should have a minimum of [forty-three](experience) years of experience
+- applicant should have a minimum of [forty-four](experience) years of experience
+- applicant should have a minimum of [forty-five](experience) years of experience
+- applicant should have a minimum of [forty-six](experience) years of experience
+- applicant should have a minimum of [forty-seven](experience) years of experience
+- applicant should have a minimum of [forty-eight](experience) years of experience
+- applicant should have a minimum of [forty-nine](experience) years of experience
+- applicant should have a minimum of [fifty](experience) years of experience
+- [0](experience) years' experience
+- [1](experience) years' experience
+- [2](experience) years' experience
+- [3](experience) years' experience
+- [4](experience) years' experience
+- [5](experience) years' experience
+- [6](experience) years' experience
+- [7](experience) years' experience
+- [8](experience) years' experience
+- [9](experience) years' experience
+- [10](experience) years' experience
+- [11](experience) years' experience
+- [12](experience) years' experience
+- [13](experience) years' experience
+- [14](experience) years' experience
+- [15](experience) years' experience
+- [16](experience) years' experience
+- [17](experience) years' experience
+- [18](experience) years' experience
+- [19](experience) years' experience
+- [20](experience) years' experience
+- [21](experience) years' experience
+- [22](experience) years' experience
+- [23](experience) years' experience
+- [24](experience) years' experience
+- [25](experience) years' experience
+- [26](experience) years' experience
+- [27](experience) years' experience
+- [28](experience) years' experience
+- [29](experience) years' experience
+- [30](experience) years' experience
+- [31](experience) years' experience
+- [32](experience) years' experience
+- [33](experience) years' experience
+- [34](experience) years' experience
+- [35](experience) years' experience
+- [36](experience) years' experience
+- [37](experience) years' experience
+- [38](experience) years' experience
+- [39](experience) years' experience
+- [40](experience) years' experience
+- [41](experience) years' experience
+- [42](experience) years' experience
+- [43](experience) years' experience
+- [44](experience) years' experience
+- [45](experience) years' experience
+- [46](experience) years' experience
+- [47](experience) years' experience
+- [48](experience) years' experience
+- [49](experience) years' experience
+- [50](experience) years' experience
+- the candidate can have [0](experience) years' of work experience
+- the candidate must have at least [1](experience) years' of work experience
+- the candidate must have at least [2](experience) years' of work experience
+- the candidate must have at least [3](experience) years' of work experience
+- the candidate must have at least [4](experience) years' of work experience
+- the candidate must have at least [5](experience) years' of work experience
+- the candidate must have at least [6](experience) years' of work experience
+- the candidate must have at least [7](experience) years' of work experience
+- the candidate must have at least [8](experience) years' of work experience
+- the candidate must have at least [9](experience) years' of work experience
+- the candidate must have at least [10](experience) years' of work experience
+- the candidate must have at least [11](experience) years' of work experience
+- the candidate must have at least [12](experience) years' of work experience
+- the candidate must have at least [13](experience) years' of work experience
+- the candidate must have at least [14](experience) years' of work experience
+- the candidate must have at least [15](experience) years' of work experience
+- the candidate must have at least [16](experience) years' of work experience
+- the candidate must have at least [17](experience) years' of work experience
+- the candidate must have at least [18](experience) years' of work experience
+- the candidate must have at least [19](experience) years' of work experience
+- the candidate must have at least [20](experience) years' of work experience
+- the candidate must have at least [21](experience) years' of work experience
+- the candidate must have at least [22](experience) years' of work experience
+- the candidate must have at least [23](experience) years' of work experience
+- the candidate must have at least [24](experience) years' of work experience
+- the candidate must have at least [25](experience) years' of work experience
+- the candidate must have at least [26](experience) years' of work experience
+- the candidate must have at least [27](experience) years' of work experience
+- the candidate must have at least [28](experience) years' of work experience
+- the candidate must have at least [29](experience) years' of work experience
+- the candidate must have at least [30](experience) years' of work experience
+- the candidate must have at least [31](experience) years' of work experience
+- the candidate must have at least [32](experience) years' of work experience
+- the candidate must have at least [33](experience) years' of work experience
+- the candidate must have at least [34](experience) years' of work experience
+- the candidate must have at least [35](experience) years' of work experience
+- the candidate must have at least [36](experience) years' of work experience
+- the candidate must have at least [37](experience) years' of work experience
+- the candidate must have at least [38](experience) years' of work experience
+- the candidate must have at least [39](experience) years' of work experience
+- the candidate must have at least [40](experience) years' of work experience
+- the candidate must have at least [41](experience) years' of work experience
+- the candidate must have at least [42](experience) years' of work experience
+- the candidate must have at least [43](experience) years' of work experience
+- the candidate must have at least [44](experience) years' of work experience
+- the candidate must have at least [45](experience) years' of work experience
+- the candidate must have at least [46](experience) years' of work experience
+- the candidate must have at least [47](experience) years' of work experience
+- the candidate must have at least [48](experience) years' of work experience
+- the candidate must have at least [49](experience) years' of work experience
+- the candidate must have at least [50](experience) years' of work experience
+- applicant should have a minimum of [0](experience) years of experience
+- applicant should have a minimum of [1](experience) years of experience
+- applicant should have a minimum of [2](experience) years of experience
+- applicant should have a minimum of [3](experience) years of experience
+- applicant should have a minimum of [4](experience) years of experience
+- applicant should have a minimum of [5](experience) years of experience
+- applicant should have a minimum of [6](experience) years of experience
+- applicant should have a minimum of [7](experience) years of experience
+- applicant should have a minimum of [8](experience) years of experience
+- applicant should have a minimum of [9](experience) years of experience
+- applicant should have a minimum of [10](experience) years of experience
+- applicant should have a minimum of [11](experience) years of experience
+- applicant should have a minimum of [12](experience) years of experience
+- applicant should have a minimum of [13](experience) years of experience
+- applicant should have a minimum of [14](experience) years of experience
+- applicant should have a minimum of [15](experience) years of experience
+- applicant should have a minimum of [16](experience) years of experience
+- applicant should have a minimum of [17](experience) years of experience
+- applicant should have a minimum of [18](experience) years of experience
+- applicant should have a minimum of [19](experience) years of experience
+- applicant should have a minimum of [20](experience) years of experience
+- applicant should have a minimum of [21](experience) years of experience
+- applicant should have a minimum of [22](experience) years of experience
+- applicant should have a minimum of [23](experience) years of experience
+- applicant should have a minimum of [24](experience) years of experience
+- applicant should have a minimum of [25](experience) years of experience
+- applicant should have a minimum of [26](experience) years of experience
+- applicant should have a minimum of [27](experience) years of experience
+- applicant should have a minimum of [28](experience) years of experience
+- applicant should have a minimum of [29](experience) years of experience
+- applicant should have a minimum of [30](experience) years of experience
+- applicant should have a minimum of [31](experience) years of experience
+- applicant should have a minimum of [32](experience) years of experience
+- applicant should have a minimum of [33](experience) years of experience
+- applicant should have a minimum of [34](experience) years of experience
+- applicant should have a minimum of [35](experience) years of experience
+- applicant should have a minimum of [36](experience) years of experience
+- applicant should have a minimum of [37](experience) years of experience
+- applicant should have a minimum of [38](experience) years of experience
+- applicant should have a minimum of [39](experience) years of experience
+- applicant should have a minimum of [40](experience) years of experience
+- applicant should have a minimum of [41](experience) years of experience
+- applicant should have a minimum of [42](experience) years of experience
+- applicant should have a minimum of [43](experience) years of experience
+- applicant should have a minimum of [44](experience) years of experience
+- applicant should have a minimum of [45](experience) years of experience
+- applicant should have a minimum of [46](experience) years of experience
+- applicant should have a minimum of [47](experience) years of experience
+- applicant should have a minimum of [48](experience) years of experience
+- applicant should have a minimum of [49](experience) years of experience
+- applicant should have a minimum of [50](experience) years of experience
+- [twenty one](experience) years' experience
+- [twenty two](experience) years' experience
+- [twenty three](experience) years' experience
+- [twenty four](experience) years' experience
+- [twenty five](experience) years' experience
+- [twenty six](experience) years' experience
+- [twenty seven](experience) years' experience
+- [twenty eight](experience) years' experience
+- [thirty one](experience) years' experience
+- [thirty two](experience) years' experience
+- [thirty three](experience) years' experience
+- [thirty four](experience) years' experience
+- [thirty five](experience) years' experience
+- [thirty six](experience) years' experience
+- [thirty seven](experience) years' experience
+- [thirty eight](experience) years' experience
+- [thirty nine](experience) years' experience
+- [forty one](experience) years' experience
+- [forty two](experience) years' experience
+- [forty three](experience) years' experience
+- [forty four](experience) years' experience
+- [forty five](experience) years' experience
+- [forty six](experience) years' experience
+- [forty seven](experience) years' experience
+- [forty eight](experience) years' experience
+- [forty nine](experience) years' experience
+- the candidate must have at least [twenty one](experience) years' of work experience
+- the candidate must have at least [twenty two](experience) years' of work experience
+- the candidate must have at least [twenty three](experience) years' of work experience
+- the candidate must have at least [twenty four](experience) years' of work experience
+- the candidate must have at least [twenty five](experience) years' of work experience
+- the candidate must have at least [twenty six](experience) years' of work experience
+- the candidate must have at least [twenty seven](experience) years' of work experience
+- the candidate must have at least [twenty eight](experience) years' of work experience
+- the candidate must have at least [thirty one](experience) years' of work experience
+- the candidate must have at least [thirty two](experience) years' of work experience
+- the candidate must have at least [thirty three](experience) years' of work experience
+- the candidate must have at least [thirty four](experience) years' of work experience
+- the candidate must have at least [thirty five](experience) years' of work experience
+- the candidate must have at least [thirty six](experience) years' of work experience
+- the candidate must have at least [thirty seven](experience) years' of work experience
+- the candidate must have at least [thirty eight](experience) years' of work experience
+- the candidate must have at least [thirty nine](experience) years' of work experience
+- the candidate must have at least [forty one](experience) years' of work experience
+- the candidate must have at least [forty two](experience) years' of work experience
+- the candidate must have at least [forty three](experience) years' of work experience
+- the candidate must have at least [forty four](experience) years' of work experience
+- the candidate must have at least [forty five](experience) years' of work experience
+- the candidate must have at least [forty six](experience) years' of work experience
+- the candidate must have at least [forty seven](experience) years' of work experience
+- the candidate must have at least [forty eight](experience) years' of work experience
+- the candidate must have at least [forty nine](experience) years' of work experience
+- applicant should have a minimum of [twenty one](experience) years of experience
+- applicant should have a minimum of [twenty two](experience) years of experience
+- applicant should have a minimum of [twenty three](experience) years of experience
+- applicant should have a minimum of [twenty four](experience) years of experience
+- applicant should have a minimum of [twenty five](experience) years of experience
+- applicant should have a minimum of [twenty six](experience) years of experience
+- applicant should have a minimum of [twenty seven](experience) years of experience
+- applicant should have a minimum of [twenty eight](experience) years of experience
+- applicant should have a minimum of [thirty one](experience) years of experience
+- applicant should have a minimum of [thirty two](experience) years of experience
+- applicant should have a minimum of [thirty three](experience) years of experience
+- applicant should have a minimum of [thirty four](experience) years of experience
+- applicant should have a minimum of [thirty five](experience) years of experience
+- applicant should have a minimum of [thirty six](experience) years of experience
+- applicant should have a minimum of [thirty seven](experience) years of experience
+- applicant should have a minimum of [thirty eight](experience) years of experience
+- applicant should have a minimum of [thirty nine](experience) years of experience
+- applicant should have a minimum of [forty one](experience) years of experience
+- applicant should have a minimum of [forty two](experience) years of experience
+- applicant should have a minimum of [forty three](experience) years of experience
+- applicant should have a minimum of [forty four](experience) years of experience
+- applicant should have a minimum of [forty five](experience) years of experience
+- applicant should have a minimum of [forty six](experience) years of experience
+- applicant should have a minimum of [forty seven](experience) years of experience
+- applicant should have a minimum of [forty eight](experience) years of experience
+- applicant should have a minimum of [forty nine](experience) years of experience
+- [Male](gender)
+- [Information and Cultural Industries](industry:information and cultural industries)
+- [Master's Degree](degree_name:master''s degree)
+- i am looking for condidate who is good in [sql](competency) , [nosql](competency) , [javascript](competency) , [php](competency:PHP) and [devops](competency)
+- [arabic](language) and [english](language)
+- i want to find a [candidate](candidate) in [tunisia](location)
+- [Male](gender)
+- [Educational Services](industry)
+- [Master's Degree](degree_name:master''s degree)
+- i want to find a person who is good in [sql](competency) , [nosql](competency) , [php](competency:PHP) , [devops](competency:DevOps) and [react](competency:JavaScript Framework)
+- the applicants should speak [arabic](language) and [english](language)
+- [2](experience) years
+- [france](location)
+- the candidate must be a native speaker of the [french](language) Language with experience [translating](competency), localizing and [developing eLearning](competency) or other training content from the [english](language) language
+- the candidate must be a native speaker of the [arabic](language) Language with experience [translating](competency), localizing and [developing eLearning](competency) or other training content from the [portuguese](language) language
+- the candidate must be a native speaker of the [chinese](language) Language with experience [communication](competency), localizing and [developing eLearning](competency) or other training content from the [bengali](language) language
+- the candidate must be a native speaker of the [spanish](language) Language with experience [communication](competency), localizing and [developing eLearning](competency) or other training content from the [russian](language) language
+- the candidate must be a native speaker of the [hindi](language) Language with experience [oral communication](competency), localizing and [developing eLearning](competency) or other training content from the [japanese](language) language
+- the candidate must be a native speaker of the [punjabi/lahnda](language) Language with experience [translating](competency), localizing and [developing eLearning](competency) or other training content from the [hindi](language) language
+- Native [french](language) Speaker, Conversational in [punjabi/lahnda](language)
+- Native [arabic](language) Speaker, Conversational in [japanese](language)
+- Native [english](language) Speaker, Conversational in [bengali](language)
+- Native [chinese](language) Speaker, Conversational in [portuguese](language)
+- Native [spanish](language) Speaker, Conversational in [hindi](language)
+- Native [hindi](language) Speaker, Conversational in [spanish](language)
+- Native [portuguese](language) Speaker, Conversational in [chinese](language)
+- Native [bengali](language) Speaker, Conversational in [english](language)
+- Native [japanese](language) Speaker, Conversational in [french](language)
+- Native [punjabi/lahnda](language) Speaker, Conversational in [arabic](language)
+- Language Skills Required Speaking [english](language) Writing/Reading [english](language)
+- Language Skills Required Speaking [arabic](language) Writing/Reading [arabic](language)
+- Language Skills Required Speaking [french](language) Writing/Reading [french](language)
+- Language Skills Required Speaking [chinese](language) Writing/Reading [chinese](language)
+- Language Skills Required Speaking [spanish](language) Writing/Reading [spanish](language)
+- Language Skills Required Speaking [hindi](language) Writing/Reading [hindi](language)
+- Language Skills Required Speaking [japanese](language) Writing/Reading [japanese](language)
+- Language Skills Required Speaking [punjabi/lahnda](language) Writing/Reading [punjabi/lahnda](language)
+- Only applications submitted in [english](language) will be considered
+- Only applications submitted in [arabic](language) will be considered
+- Only applications submitted in [spanish](language) will be considered
+- Only applications submitted in [french](language) will be considered
+- Only applications submitted in [chinese](language) will be considered
+- Only applications submitted in [hindi](language) will be considered
+- Only applications submitted in [japanese](language) will be considered
+- Only applications submitted in [punjabi/lahnda](language) will be considered
+- We are looking for a [french](language) speaking [Financial Analyst](job_title)
+- We are looking for a [arabic](language) speaking [manager](job_title)
+- We are looking for a [english](language) speaking [project manager](job_title)
+- We are looking for a [spanish](language) speaking [team lead](job_title)
+- We are looking for a [chinese](language) speaking [developer](job_title)
+- We are looking for a [japanese](language) speaking [engen](job_title)
+- We are looking for a [hindi](language) speaking [Financial Analyst](job_title)
+- We are looking for a [punjabi/lahnda](language) speaking [Financial Analyst](job_title)
+- Excellent communication and presentation skills in fluent [french](language) and [punjabi/lahnda](language)
+- Excellent communication and presentation skills in fluent [arabic](language) and [hindi](language)
+- Excellent communication and presentation skills in fluent [english](language) and [japanese](language)
+- Excellent communication and presentation skills in fluent [spanish](language) and [chinese](language)
+- Excellent communication and presentation skills in fluent [chinese](language) and [spanish](language)
+- Excellent communication and presentation skills in fluent [japanese](language) and [english](language)
+- Excellent communication and presentation skills in fluent [hindi](language) and [arabic](language)
+- Excellent communication and presentation skills in fluent [punjabi/lahnda](language) and [french](language)
+- Minimum [1](experience) years to [2](experience) years experience after graduating
+- Strong [communication](competency) skills
+- This position will be based in [Washington](location), DC and requires some overseas travel to countries in the region
+- candidate might be a fit if he have [2](experience) - [3](experience) years of experience in [management consulting](job_title)
+- Nice to Have knowledge and experience of [data visualisation](competency) and [reporting tools](competency) (Tableau, Looker, etc) and [SQL](competency) databases
+- Nice to Have experience in the [saas](competency) industry
+- candidate might be a fit if he have [exceptional analytical](competency) and quantitative [problem-solving](competency) skills
+- Graduate from Engineering school, Business School or University, with a [master's degree](degree_level) in [finance and insurance](industry)
+- You ideally have a first experience in [trading floor](competency) You are fluent in [english](language)
+- You are proficient with [php](competency) and [python](competency)
+- To facilitate the examination of your application by our [English](language) speaking [managers](job_title), we thank you for applying in [english](language)
+- ideal candidates will present the following profile [master's degree](degree_level) in [Engineering](job_title), [Architecture](job_title), or related discipline from an accredited college or university.
+- Experience with [system software integration](competency), such as [Fire Alarm](competency), [Video Security](competency) and [Access Control](competency) System.
+- Demonstrated record of achievement in project and [program management](competency), [engineering design](competency), [architecture](competency) and/or [construction](industry) fields
+- Demonstrated analysis of [problem solving](competency), [negotiation](competency) and conflict [resolution](competency) skills
+- Excellent [oral and written communication]](competency) skills and interpersonal skills
+- [Bachelor’s Degree](degree_level) in [Engineering](job_title), [Architecture](job_title)
+- Minimum of [seven](experience) to [ten](experience) of experience in [project management](job_title), with demonstrated experience in [managing](competency) [engineers](job_title), [designers](job_title), [technical professional personnel](job_title), [construction](industry) contracts, and working with [security](competency)
+- An appreciation for [design](competency) and [quality](competency)
+- The desire for [high quality code](competency)
+- An eye for great [UI](competency)
+- Get chills when you think of an [agile](competency) [software development](competency) culture
+- - Get chills when you think of an [scrum](competency) [software development](competency) culture
+- A love for unit [tests](competency)
+- Daily [agile](competency) [scrum](competency) meetings where you get to say what you have been working on and what you will work on
+- Participate in [code](competency) reviews
+- Work with QA to resolve [bugs](competency)
+- Minimum of [Bachelor's degree](degree_level) in [Computer Science](competency)
+- [0](experience) - [2](experience) years of experience or similar ability in [software development](competency)
+- Some experience with the platform you are [developing](competency) on
+- Working understanding and exposure to [API](competency) and consuming [RESTful services](competency)
+- Enjoys a fast paced, [agile](competency), [challenging](competency) and [team-oriented work](competency) environment
+- Ability to create simple and well-designed solutions to complex [software problems](competency)
+- Fluent in: [C#](competency) , [Swift](competency) , [Objective C](competency) , [Java](competency), or [Kotlin](competency) , [SQL](competency) , [XML](competency) , [JSON](competency) , [MVC](competency) experience helpful
+- Working knowledge of [software development](competency) tools and [agile](competency) processes
+- Strong [teamwork](competency) and [problem-solving](competency) skills
+- Ability to read and comprehend [instructions](competency) , short [correspondence](competency) , and [memos](competency)
+- Good verbal and written [communication](competency) skills
+- Knowledge of [testing](competency) methodologies (e.g. smoke, regressions, component, integrations, etc.)
+- Must be able to clearly define and [solve problems](competency)
+- Web Applications (MVC and WebAPI preferred)
+- [Oracle](competency) database, [Microsoft SQL Server](competency), or [MySQL](competency)
+- [HTML 5](competency) Standards
+- Concepts of [Object Oriented Programming](competency) and [Design](competency)
+- [ASP.NET](competency) and [ASP.NET](competency) Core
+- [Java](competency), [C#](competency), [C++](competency) or other [Object Oriented Programming](competency) languages
+- [JavaScript frameworks](competency) including but not limited to [React](competency), [Vue](competency), or [Angular](competency)
+- [JQuery](competency) [Javascript](competency) library
+- [Communication](competency) skills (verbal and written)
+- Strong [interpersonal](competency) skills
+- Writing [documentation](competency)
+- Demonstrated ability to perform [troubleshooting](competency) and [problem resolution](competency)
+- The successful candidate must have excellent [communication](competency) and [time management](competency) skills
+- Ability to [communicate](competency) with customers
+- This candidate will participate in writing complex business [applications](competency) and [reports](competency) using various technologies, such as [Oracle](competency) Application [Express](competency) [APEX](competency) , [Oracle](competency) [SQL](competency) , [.Net](competency) , [MSSQL Server](competency) , [JavaScript](competency) , [MySQL](competency) [MariaDB](competency)
+- This candidate will assist in [analyzing new requirements](competency) , provide work/effort estimates, [correct defects](competency) in existing applications, tune and [optimize](competency) existing code and queries.
+- This candidate will [rectify](competency) [web applications](competency)
+- The candidate will [reform](competency) [software applications](competency)
+- This candidate will [remedy](competency) [instructions](competency)
+- This candidate will [fix](competency) [bugs](competency)
+- This candidate will [mend](competency) [programs](competency)
+- The candidate will [repair](competency) [customized modules](competency)
+- candidate will [adjust](competency) [wiki](competency)
+- The candidate will [modulate](competency) [programs](competency)
+- candidate will [regulate](competency) [algorithms](competency)
+- The candidate will [alter](competency) [customized modules](competency)
+- This candidate will [change](competency) [memos](competency)
+- candidate will [modify](competency) [codes](competency)
+- The candidate will [debugs](competency) [programs](competency)
+- [analyzing new requirements](competency)
+- [customized modules](competency)
+- [correct defects](competency)
+- [algorithms](competency)
+- [web applications](competency)
+- [Web](competency)
+- [Program](competency)
+- [programs](competency)
+- [reports](competency)
+- [design patterns](competency)
+- [design algorithms](competency)
+- [Coding](competency)
+- [software application](competency)
+- [software applications](competency)
+- [clean code](competency)
+- [clean codes](competency)
+- [reliable code](competency)
+- [reliable codes](competency)
+- [codes](competency)
+- [code](competency)
+- [n-tier architecture](competency)
+- [microservices architecture](competency)
+- [microservices](competency)
+- [API](competency)
+- [scalable environment](competency)
+- [databases](competency)
+- [frameworks](competency)
+- [framework](competency)
+- [website](competency)
+- [high quality code](competency)
+- [instructions](competency)
+- [correspondence](competency)
+- [memos](competency)
+- [wiki](competency)
+- [documentation](competency)
+- [optimize](competency)
+- Must have [five](experience) years of [Business Analyst](job_title) Experience
+- Proven working experience in technical writing of software [documentation](competency)
+- Ability to deliver high-quality [documentation](competency) paying attention to detail
+- Excellent written skills in [english](language)
+- Strong working knowledge of [Microsoft Office](competency)
+- Basic familiarity with the [Agile](competency) , SDLC and [software development](competency)
+- [master's degree](degree_level) in [Computer Science](competency), [Engineering](job_title) or equivalent preferred
+- [Software Developer](job_title), IBM Corporation, Littleton, MA
+- [Design](competency), [develop](competency) and enhance server, [middle-tier](job_title), and [frontend](job_title) components
+- [Design](competency) and implement unit [tests](competency)
+- Create [proof of concept](competency) (POC), design [documents](competency) , [code](competency) , and [test](competency)  deliverables for solution engineering
+- Develop and unit [test](competency) integration extensions
+- Interact with customers to solve [business problems](competency)
+- Utilize [Java](competency), [Java 2 Enterprise Edition](competency) [J2EE](competency) , [jQuery](competency), [Python](competency), [NoSQL](competency) databases [MongoDB](competency), and [Node.JS](competency)
+- Required: [Bachelor's degree](degree_level) or equivalent in [Business Administration](job_title), [Computer Science](competency), or related
+- employer will accept [three](experience) (3) years of post-secondary study plus [one](experience) (1) year of [IT](competency) experience in lieu of a [Bachelor's degree](degree_level) and [two](experience) (2) years of experience as a [Software Engineer](job_title) or related.
+- [two](experience) (2) years of experience must include utilizing [Java](competency), [J2EE](competency), [jQuery](competency), [Python](competency), [Dropwizard](competency), [NoSQL](competency) databases [MongoDB](competency), and [Node.JS](competency). [Full time](employment_type)
+- [JSP](competency) development experience required
+- Working knowledge of enterprise [networking](competency) required
+- Should have excellent organizational and [communication](competency) skills
+- Ability to take initiative and work independent of [supervision](competency)
+- [master's degree](degree_level)  in [Computer Science](competency), [Network Engineering](job_title) or [Programming](competency)
+- [Java J2EE](competency) application [design](competency), [development](competency) and [testing](competency) ex. [JUnit](competency)
+- Developer tool experiencet [Git](competency), [Jenkins](competency), etc.
+- Behavior Driven Development and [UI](competency) automated [testing](competency)
+- [Object oriented development](competency) and [design pattern](competency) knowledge
+- Experience with [UI](competency) technologies [JavaScript](competency), [JQuery](competency), [HTML5](competency), [CSS3](competency), [React](competency)
+- Experience with [Java Web](competency), [SOAP](competency), [Web services](competency) (WAS & TC), and [RESTful](competency) [web service](competency) development, [Spring framework](competency), [spring](competency) Source Tool Suite, [spring MVC](competency), [spring boot](competency), [bootstrap](competency), [stored procedures](competency), and [Postgres](competency) [SQL](competency)
+- Experience with or willingness to learn [agile](competency) software development [scrum](competency)
+- [Male](gender)
+- [Administrative and Support, Waste Management and Remediation Services](industry:Administrative and Support Waste Management and Remediation Services)
+- [administrative and support, waste management and remediation services](industry)
+- [Master's Degree](degree_name:master''s degree)
+- the candidate must have [two](experience:2) years experience of [web programming](competency) and [javascript](competency)
+- Language Skills Required Speaking [chinese](language) ,[hindi](language) ,[english](language and [arabic](language)
+- it would be nice if he can work in [tunisia](location)
 
 ## intent:name
 - My name is [omar](name)
@@ -3776,9 +4406,11 @@
 - my name is [tarek](name)
 - my name is [wajih](name)
 - my name is [yoser](name)
-- i am excelent at [react](competency:JavaScript Framework)
 - i am [omar](name)
 - my name is [zahra](name)
+- my name is [nada](name)
+- my name is [ali](name)
+- my name is [naziha](name)
 
 ## intent:newjoob
 - i am looking for a new job
@@ -3793,7 +4425,7 @@
 - i am seeking a new job opportunity
 - i am seeking a new job
 - i want to change my current job
-- I’m currently searching for a new opportunity in [software engineering](industry). With my background in [field] and skills in [area], my ideal position involves [software engineering](job_title)
+- I’m currently searching for a new opportunity in [Information and Cultural Industriesy](industry). With my background in [field] and skills in [area], my ideal position involves [software engineering](job_title)
 - i’m looking for more leadership opportunities. I’ve been at my company for three years and have really enjoyed the experience but I feel in order to take the next step in my career, it’d be helpful to join a larger organization and use what I’ve learned in the past to lead more projects. That’s why this [Project Manager](job_title) role excited me
 - I was hired for a [Project Manager](job_title) role, but over time that changed and I was no longer being given the opportunity to do the work I was interested in.
 - I left to pursue an opportunity that I felt was more aligned with what I’ve chosen to focus on in my career
@@ -3805,6 +4437,45 @@
 - i am switching my job at this point of my career because i want to change location
 - i am looking for a new job
 - i am looking for a new job opportunity
+
+## intent:request_candidate
+- give me favor [applicants](candidate) with a preference for the position's industry [Information and Cultural Industriesy](industry)
+- Find best [employee](candidate)
+- i hope i can find a candidate in [google](company)
+- i want to find a [candidate](candidate) in [tunis](location)
+- i have [master's degree](degree_name:master''s degree) and i am looking for a [web developer](job_title) position with [devops](competency:DevOps)
+- hey i have [master's degree](degree_name:master''s degree) and i am looking for [web developer](job_title) position with [devops](competency:DevOps) , [javascript](competency) , [sql](competency) and [nosql](competency)
+- i have [master's degree](degree_name:master''s degree) and i am looking for [web developer](job_title) position with [nosql](competency) skills
+- i am looking for a [candidate](candidate)
+- i am looking for an [employee](candidate)
+- i am trying to find a [candidate](candidate)
+- i am trying to find [employees](candidate)
+- i am working my way out to find a [candidate](candidate)
+- it will be nice if i find a [candidate](candidate)
+- i am seeking a [candidate](candidate)
+- it will be nice if i find a [candidate](candidate)
+- i am seeking a [candidate](candidate)
+- i am seeking an [employee](candidate)
+- I’m currently searching for a [candidates](candidate)
+- i am recruiting and i am looking for [candidates](candidate)
+- I’m currently searching for a [candidate](candidate)
+- it will be nice if i find a [candidate](candidate) in [tunis](location)
+- please help me to find a [candidate](candidate)
+- i am looking for a [candidate](candidate)
+- i am looking for a [job seeker](candidate)
+- i am looking for a [job hunter](candidate)
+- i am looking for a [job applicant](candidate)
+- i am looking for a [contender](candidate)
+- i am looking for a [contestant](candidate)
+- looking for a [candidate](candidate)
+- looking for a [job seeker](candidate)
+- looking for a [job hunter](candidate)
+- looking for a [job applicant](candidate)
+- looking for a [contender](candidate)
+- looking for a [contestant](candidate)
+- i am looking for [candidate](candidate)
+- i am looking for new [candidates](candidate)
+- we are looking for [candidates](candidate) to join our company
 
 ## intent:request_info
 - do you have their [address](info)
@@ -3851,8 +4522,6 @@
 - i am looking for a job
 - please help me to find a job
 - i am looking for a job oportunity
-- i am looking for a job
-- i am looking for a job
 
 ## intent:thankyou
 - um thank you good bye
@@ -3904,15 +4573,188 @@
 - thank you anyways
 - thank you
 - great job ! thank you
+- thank you
+- thank you
+
+## synonym:0
+- zero
+
+## synonym:1
+- one
+
+## synonym:10
+- ten
+
+## synonym:11
+- eleven
+
+## synonym:12
+- twelve
+
+## synonym:13
+- thirteen
+
+## synonym:14
+- fourteen
+
+## synonym:15
+- fifteen
+
+## synonym:16
+- sixteen
+
+## synonym:17
+- seventeen
+
+## synonym:18
+- eighteen
+
+## synonym:19
+- nineteen
+
+## synonym:2
+- two
+
+## synonym:20
+- twenty
+
+## synonym:21
+- twenty-one
+- twenty one
+
+## synonym:22
+- twenty-two
+- twenty two
+
+## synonym:23
+- twenty-three
+- twenty three
+
+## synonym:24
+- twenty-four
+- twenty four
+
+## synonym:25
+- twenty-five
+- twenty five
+
+## synonym:26
+- twenty-six
+- twenty six
+
+## synonym:27
+- twenty-seven
+- twenty seven
+
+## synonym:28
+- twenty-eight
+- twenty eight
+
+## synonym:29
+- twenty-nine
+- twenty nine
+
+## synonym:3
+- three
+
+## synonym:30
+- thirty
+
+## synonym:31
+- thirty-one
+- thirty one
+
+## synonym:32
+- thirty-two
+- thirty two
+
+## synonym:33
+- thirty-three
+- thirty three
+
+## synonym:34
+- thirty-four
+- thirty four
+
+## synonym:35
+- thirty-five
+- thirty five
+
+## synonym:36
+- thirty-six
+- thirty six
+
+## synonym:37
+- thirty-seven
+- thirty seven
+
+## synonym:38
+- thirty-eight
+- thirty eight
+
+## synonym:39
+- thirty-nine
+- thirty nine
 
 ## synonym:4
 - four
 
+## synonym:40
+- forty
+
+## synonym:41
+- forty-one
+- forty one
+
+## synonym:42
+- forty-two
+- forty two
+
+## synonym:43
+- forty-three
+- forty three
+
+## synonym:44
+- forty-four
+- forty four
+
+## synonym:45
+- forty-five
+- forty five
+
+## synonym:46
+- forty-six
+- forty six
+
+## synonym:47
+- forty-seven
+- forty seven
+
+## synonym:48
+- forty-eight
+- forty eight
+
+## synonym:49
+- forty-nine
+- forty nine
+
+## synonym:5
+- five
+
+## synonym:50
+- fifty
+
 ## synonym:6
 - six
 
+## synonym:7
+- seven
+
 ## synonym:8
 - eight
+
+## synonym:9
+- nine
 
 ## synonym:ASP.NET
 - AJAX
@@ -3980,6 +4822,9 @@
 - J2EE
 - spring
 - sring core
+- Java J2EE
+- Java 2 Enterprise Edition
+- Java Web
 - JSP
 - JSF
 - Spring
@@ -3998,10 +4843,12 @@
 - JVM
 - POO
 - OOP
+- Object oriented development
 - Core Java
 - FreeMarker
 - Maven
 - ColdFusion
+- Object Oriented Programming
 
 ## synonym:JavaScript
 - Yarn
@@ -4009,10 +4856,13 @@
 
 ## synonym:JavaScript Framework
 - react
+- JavaScript Frameworks
 - JavaScript web framework
 - Meteor JS
 - Node.js
 - NodeJS
+- APEX
+- Express
 - Express.js
 - ExpressJS
 - jQuery
@@ -4023,6 +4873,7 @@
 - Bootstrap
 - JSON
 - JWT Auth
+- Vue
 
 ## synonym:NoSql
 - mongodb
@@ -4043,6 +4894,12 @@
 - WordPress
 
 ## synonym:Programing
+- proof of concept
+- poc
+- optimize
+- system software integration
+- system integration
+- software integration
 - development
 - web programing
 - web application development
@@ -4052,9 +4909,11 @@
 - Web
 - Program
 - programs
+- reports
 - design patterns
 - design algorithms
 - Coding
+- algorithms
 - software application
 - software applications
 - clean code
@@ -4072,6 +4931,14 @@
 - frameworks
 - framework
 - website
+- high quality code
+- instructions
+- correspondence
+- memos
+- wiki
+- documentation
+- documents
+- analyzing new requirements
 
 ## synonym:Python (computer programming)
 - Python framework
@@ -4096,6 +4963,8 @@
 - MySQL
 
 ## synonym:Software security
+- Fire Alarm
+- Video Security
 - data protection
 - Access control
 - Anti-keyloggers
@@ -4154,6 +5023,8 @@
 - communication oral , written
 - communication (oral and written)
 - communication oral written
+- oral and written communication
+- communicate
 
 ## synonym:computer science
 - development of thinking computer systems
@@ -4192,6 +5063,7 @@
 - debugs
 - amend
 - correct
+- correct defects
 - emend
 - rectify
 - red-pencil
@@ -4206,6 +5078,7 @@
 - alter
 - change
 - modify
+- bugs
 
 ## synonym:frontend developer
 - front-end
@@ -4229,14 +5102,55 @@
 - gitlab
 - GitLab
 
+## synonym:agriculture, forestry, fishing and hunting
+- Agriculture, Forestry, Fishing and Hunting
+## synonym:mining, quarrying, and oil and gas extraction
+- Mining, Quarrying, and Oil and Gas Extraction
+## synonym:utilities
+- Utilities
+## synonym:construction
+- Construction
+## synonym:wholesale trade
+- Wholesale Trade
 ## synonym:information and cultural industries
 - Information and Cultural Industries
+## synonym:finance and insurance
+- Finance and Insurance
+## synonym:management of companies and enterprises
+- Management of Companies and Enterprises
+## synonym:administrative and support, waste management and remediation services
+- Administrative and Support, Waste Management and Remediation Services
+## synonym:educational services
+- Educational Services
+## synonym:health care and social assistance
+- Health Care and Social Assistance
+## synonym:accommodation and food services
+- Accommodation and Food Services
+## synonym:other services (except public administration)
+- Other Services (except Public Administration)
+## synonym:public administration
+- Public Administration
+## synonym:unclassified
+- Unclassified
+## synonym:industry
+- Industry
+## synonym:tourism
+- Tourism
+## synonym:government companies
+- Government Companies
+## synonym:free zone
+- Free Zone
+## synonym:logistics
+- Logistics
+## synonym:other sectors
+- Other Sectors
 
 ## synonym:master''s degree
 - Master's Degree
 - master's degree
 - master' s degree
 - master 's degree
+- master degree
 
 ## synonym:moderate
 - moderately
@@ -4289,6 +5203,11 @@
 - solve problems
 - problem-solving
 - business problems
+- negotiation
+- conflict resolution
+- challenging
+- troubleshooting
+- problem resolution
 
 ## synonym:professional
 - Professional
@@ -4311,6 +5230,9 @@
 - Apache tomcat
 - XAMPP
 - JBOSS
+- Microsoft SQL Server
+- MSSQL Server
+- MariaDB
 
 ## synonym:skilled
 - Skilled
